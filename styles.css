@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: none;
+}
+
+body {
+  background-color: #1b1b1b;
+  font-family: "HelveticaNeue", Arial, Sans-Serif;
+}
+
+h1.explore {
+  padding-top: 16px;
+  font-size: 24pt;
+  color: #fff;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.blurb {
+  padding-top: 4px;
+  font-size: 14px;
+  color: #fca;
+  text-align: center;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.blurb:hover {
+  color: #fff;
+}
+
+.skyline {
+  background-image: url(img/gradient_bg.png);
+  background-repeat: repeat-x;
+  height: 650px;
+  width: 100%;
+}
+
+.starburst {
+  background-image: url(img/starburst.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 650px;
+  background-position: center;
+}
+
+.title {
+  background-image: url(img/main_title.png);
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  width: 640px;
+  height: 140px;
+}
+
+.city {
+  background-image: url(img/city.png);
+  background-repeat: no-repeat;
+  height: 650px;
+  width: 100%;
+  background-position: 50% 304px;
+}
+
+.wrapper {
+  width: 960px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 64px;
+}
+
+.buttondiv {
+  width: 464px; 
+  padding: 8px;
+  height: inherit;
+  display:inline;
+  color: #ccc;
+}
+
+.icon {
+  margin-top: 32px;
+  transition: margin-top 0.25s;
+  box-shadow: 0px 0px 30px #1b1b1b;
+  border-radius: 18px;
+}
+
+.icon:hover {
+  margin-top: 10px;
+}
+
+.iconholder {
+  width: 100%;
+  height: 282px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+p.icontext {
+  padding-left: 24px;
+  padding-right: 24px;
+  text-align: center;
+  -webkit-box-reflect: below 50px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(25%, transparent), to(rgba(255,255,255,0.2)));
+
+}
+
+.footer {
+  width: 100%;
+  height: calc(100vh - 670px);
+  background-image: url(img/cityref.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 7px) 0px;
+  border: none;
+}
+
+.ucl {
+  background-image: url(img/ucl_trans.pngDISABLED);
+  background-position: bottom 0px right 20vw;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: inherit;
+}
+
+
+.orangelogo {
+  position: 100px 100px;
+}
